@@ -1,2 +1,6 @@
 #env
 .env
+
+#JSON files
+BTCUSD_12h.json
+refined-spirit-386007-24a7b6f825f4.json
