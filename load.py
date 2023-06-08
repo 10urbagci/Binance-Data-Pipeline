@@ -10,10 +10,10 @@ def upload_file_to_storage():
         client = storage.Client()
 
         bucket_name = os.getenv('BUCKET_NAME')
-        local_file_path = 'BTCUSD_12h.json'
+        local_file_path = 'btcusd_1h_data.csv'
 
         bucket = client.get_bucket(bucket_name)
-        blob = bucket.blob('BTCUSD_12h.json')
+        blob = bucket.blob('btcusd_1h_data.csv')
         blob.upload_from_filename(local_file_path)
         
         print("File uploaded successfully")
