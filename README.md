@@ -10,7 +10,7 @@
 <p>In the dataflow_pipeline.py script, a workflow was created using Apache Beam and the necessary settings were made to run this workflow on Dataflow. The purpose of this workflow is to read the CSV file in Cloud Storage and write the data to BigQuery after making the necessary transformations. Using the ParDo class, open_time and close_time data were converted from epoch time to real time. Then the data flow steps were created. First, the CSV file was read from the Cloud Storage Bucket. Then the CSV was parsed and the necessary transformations were made. Finally, the data was written to the BigQuery table.</p>
 
 <h1>Dataflow Diagram</h1>
-<img src='img/dataflow_diagram.png>
+<img src="img/dataflow_diagram.png">
 
 <h1>Data written into BigQuery</h1>
-<img src = 'img/bigquery_data.png'>
+<img src = "img/bigquery_data.png">
