@@ -1,5 +1,5 @@
 # Pipeline Flowchart
-<img src="img/project_arch.png">
+<img src="img/proje_mimari.png">
 
 <h1>How the Pipeline Works</h1>
 
@@ -14,3 +14,6 @@
 
 <h1>Data written into BigQuery</h1>
 <img src = "img/bigquery_data.png">
+
+<h1>Data Visualization with Looker</h1>
+<img src = "img/looker.png">
